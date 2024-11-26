@@ -1,0 +1,46 @@
+* { 
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.home_banner {background-image: url(images/home_banner.jpeg);
+    size: 1440px x 480px;
+    background-size: cover;
+    filter: brightness(80%);
+    font-size: 30px;
+    padding: 100px;
+}
+
+.works_banner {background-image: url(images/works_banner.png);
+    size: 1440px x 480px;
+    background-size: cover;
+    filter: brightness(80%);
+    font-size: 30px;
+    padding: 100px;
+}
+
+.nav{
+    background-color: #222222;
+    text-align:left;
+    padding: 5px;
+}
+
+.mainwork{
+    background-color: #222222;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    background-color: #222222;
+    padding: 10px;
+}
+
+h1{
+    background-color: none;
+}
