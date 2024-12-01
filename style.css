@@ -130,6 +130,7 @@ hr {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    justify-self: center;
 }
 
 /* Thumbnail navigation images */
