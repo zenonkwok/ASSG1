@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   //Page transition script//
-  const links = document.querySelectorAll('a');
+  const links = document.querySelectorAll('nav a');
     links.forEach(link => {
         link.addEventListener('click', (event) => {
             event.preventDefault();

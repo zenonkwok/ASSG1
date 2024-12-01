@@ -139,7 +139,7 @@ hr {
 
 /* Album section */
 .mainwork .albums {
-    align-items: left;
+    align-items: center;
 }
 
 .mainwork .albums img {
@@ -148,7 +148,6 @@ hr {
 }
 
 .mainwork .albums .container {
-    display: flex;
     gap: 10px;
     justify-content: center;
     white-space: nowrap;
@@ -156,7 +155,7 @@ hr {
 }
 
 .mainwork .albums .container h3 {
-    text-align: left;
+    text-align: center;
 }
 
 .mainwork h1{
@@ -175,11 +174,10 @@ hr {
 }
 
 .mainwork .BMS .container {
-    display: flex;
     gap: 10px;
     justify-content: center;
     white-space: nowrap;
-    text-align: left;
+    text-align: center;
 }
 
 /* Links page */
@@ -238,5 +236,24 @@ hr {
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
-    z-index: 1000; /* Ensure it stays on top of other elements */
+    z-index: 1000;
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 600px) {
+    /* Reduce text size by 5px */
+    body, h1, h2, h3, h4, h5, h6, p, a {
+        font-size: calc(100% - 5px);
+    }
+
+
+/* Media queries for big screens */
+@media (min-width: 1560px) {
+    .mainwork .albums .container {
+        display: flex;
+    }
+    .mainwork .BMS .container {
+        display: flex;
+    }
+    }
 }
