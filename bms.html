@@ -1,7 +1,8 @@
 <html>
     <!--Header for all the setting stuff-->
     <head>
-        <title>Link to you? Ver.3</title>
+        <title>BMS - Link to you? Ver.3</title>
+        <script src="main.js"></script>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +11,9 @@
 
     <!--Website contents-->    
     <body>
+        <!--Scroll to top button-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
         <!--Navigation bar-->
         <nav class = "nav">
             <ul>
@@ -35,47 +39,45 @@
                     <h2>-ATTENTION-</h2>
                     <h4>
                         BMSの曲データです <br>
-                        『BMSって何よ？』という方はスターターパックをどうぞ。<br>
+                        『BMSって何よ？』という方はスターターパックをどうぞ。 <br>
                         <br>
-                        DLはマウス右クリック→対象をファイルに保存、各種DLツールなどで。<br>
+                        DLはマウス右クリック→対象をファイルに保存、各種DLツールなどで。 <br>
                         <br>
                         BMS全25曲まとめてzip版(395MB) → shiki_bms.zip <br>
                         ・WAV版とOGG版混在してます。AirはHQ版が入ってます <br>
                         ・Crystal palace入ってません。↓からダウンロードしてください
                     </h4>
                 </div>
-                
-                <hr>
 
-                <!--album thumbnail quick navigation-->
+                <!--bms thumbnail quick navigation-->
                 <nav class="thumbnails">
                     <ul>
-                        <li><a href="#Cristierra">
-                            <img src="images/cristierra_jacket.jpeg" alt="Cristierra">
+                        <li><a href="#Crystalpalace">
+                            <img src="images/crystalpalace_square.png" alt="#Crystalpalace">
                             </a>
                         </li>
-                        <li><a href="#DramaticIrony">
-                            <img src="images/dramaticirony_square.png" alt="DramaticIrony">
+                        <li><a href="#Fractal">
+                            <img src="images/fractal_square.png" alt="#Fractal">
                             </a>
                         </li>
-                        <li><a href="#GlassChord">
-                            <img src="images/glasschord_square.png" alt="GlassChord">
+                        <li><a href="#Orfevre">
+                            <img src="images/orfevre_square.png" alt="#Orfevre">
                             </a>
                         </li>
-                        <li><a href="#Rebirth+">
-                            <img src="images/rebirth+_jacket.jpg" alt="Rebirth+">
+                        <li><a href="#Metatron">
+                            <img src="images/metatron_square.png" alt="#Metatron">
                             </a>
                         </li>
-                        <li><a href="#TrancerDolls">
-                            <img src="images/trancerdolls_jacket.png" alt="TrancerDolls">
+                        <li><a href="#Qliphoth">
+                            <img src="images/qliphoth_square.png" alt="Qliphoth">
                             </a>
                         </li>
-                        <li><a href="#EndlessDreamer">
-                            <img src="images/endlessdreamersquare.png" alt="EndlessDreamer">
+                        <li><a href="#Babylon">
+                            <img src="images/babylon_square.png" alt="#Babylon">
                             </a>
                         </li>
-                        <li><a href="#Cristears">
-                            <img src="images/cristears_square.png" alt="Cristears">
+                        <li><a href="#Lapis">
+                            <img src="images/lapis_square.png" alt="Lapis">
                             </a>
                         </li>
                     </ul>
@@ -83,75 +85,181 @@
 
                 <hr>
 
-                <!--Start of album details-->
-                <div class="albums">
-                    <section class="section" id="Cristierra">
-                        <h1>- Cristierra - SHIKI's Trance best Album</h1>
-                        <img src="images/cristierra_jacket.jpeg" alt="Cristierra">
+                <!--Start of BMS details-->
+                <div class="BMS">
+                    
+                    <!--Crystal palace-->
+                    <section class="section" id="Crystalpalace">
+                        <h1>Crystal palace</h1>
                         
-                        <h3>2021春M3新譜『Girl's Heart Sensation』発売します。試聴等↑ジャケットクリックからどうぞ。
-                            全曲アップテンポのガールズポップONLYアルバムです。全国メロンブックス・BOOTHにて販売中。
-                            出来れば下記CDと一緒にメロンブックスさんで買ってくださいお願いします
+                        <div class="container">
+                            <div>
+                                <img src="images/crystalpalace_jacket.jpeg" alt="Crystalpalace">
+                            </div>
+                            <div>
+                                <h2>GENRE - TRANCE CORE - <br>
+                                    TITLE - Crystal palace - <br>
+                                    Date - 2021/3/13
+                                </h2>
+                            </div>
+
+                        </div>
+                        <h3>
+                            BGA by Nyu。久し振りにイベント外でBMSを作りたかった。<br>
+                            SHIKIトランスコアという感じで、シンセリフ的なのものは無くて何がトランスコアなんだという感じですが、<br>
+                            BPM180ぐらいで4つ打ちならそれはトランスコア（概念）なんだよ！ ラストは音ゲー意識のピアノフレーズで音ゲー曲ということを主張しました。<br>
+                            全体的に譜面が難しいので他の曲で修行して出直してきて下さい。オレも出来ません。<br>
+                            ・高画質BGA（beatoraja用ではない） <br>
+                            →【Down Load】（143MB）
                         </h3>
+                        
                     </section>
-                    <section class="section" id="DramaticIrony">
-                        <h1>- Cristierra - SHIKI's Trance best Album</h1>
-                        <img src="images/dramaticirony_jacket.png" alt="DramaticIrony">
+
+                    <!--Fractal-->
+                    <section class="section" id="Fractal">
+                        <h1>Fractal</h1>
                         
-                        <h3>2021春M3新譜『Girl's Heart Sensation』発売します。試聴等↑ジャケットクリックからどうぞ。
-                            全曲アップテンポのガールズポップONLYアルバムです。全国メロンブックス・BOOTHにて販売中。
-                            出来れば下記CDと一緒にメロンブックスさんで買ってくださいお願いします
+                        <div class="container">
+                            <div>
+                                <img src="images/fractal_jacket.jpeg" alt="Fractal">
+                            </div>
+                            <div>
+                                <h2>GENRE - TRANCE - <br>
+                                    TITLE - Fractal - <br>
+                                    Date - 2020/11/1
+                                </h2>
+                            </div>
+
+                        </div>
+                        <h3>
+                            BGA by 140。BOFXVI参加作品。曲全部サビ、曲全部叩き所を目標に制作しました。<br>
+                            こういう譜面を２分間ずっと叩いていたい、という個人的な願望を叶えられて満足してます。<br>
+                            ・beatoraja用高解像度BGA <br>
+                            →【Down Load】
                         </h3>
+                        
                     </section>
-                    <section class="section" id="GlassChord">
-                        <h1>- Cristierra - SHIKI's Trance best Album</h1>
-                        <img src="images/glasschord_jacket.png" alt="GlassChord">
+
+                    <!--Orfevre-->
+                    <section class="section" id="Orfevre">
+                        <h1>Orfevre</h1>
                         
-                        <h3>2021春M3新譜『Girl's Heart Sensation』発売します。試聴等↑ジャケットクリックからどうぞ。
-                            全曲アップテンポのガールズポップONLYアルバムです。全国メロンブックス・BOOTHにて販売中。
-                            出来れば下記CDと一緒にメロンブックスさんで買ってくださいお願いします
+                        <div class="container">
+                            <div>
+                                <img src="images/orfevre_jacket.jpeg" alt="Orfevre">
+                            </div>
+                            <div>
+                                <h2>GENRE - TRANCE - <br>
+                                    TITLE - Orfevre - <br>
+                                    Date - 2018/11/4
+                                </h2>
+                            </div>
+
+                        </div>
+                        <h3>
+                            BGA by SHIKI。G2R2018参加作品。久し振りにBGA自作しました。<br>
+                            ラスサビの裏メロのストリングスがとても気に入ってます。
                         </h3>
+                        
                     </section>
-                    <section class="section" id="Rebirth+">
-                        <h1>- Cristierra - SHIKI's Trance best Album</h1>
-                        <img src="images/rebirth+_jacket.jpg" alt="Rebirth+">
+
+                    <!--Metatron-->
+                    <section class="section" id="Metatron">
+                        <h1>Metatron</h1>
                         
-                        <h3>2021春M3新譜『Girl's Heart Sensation』発売します。試聴等↑ジャケットクリックからどうぞ。
-                            全曲アップテンポのガールズポップONLYアルバムです。全国メロンブックス・BOOTHにて販売中。
-                            出来れば下記CDと一緒にメロンブックスさんで買ってくださいお願いします
+                        <div class="container">
+                            <div>
+                                <img src="images/metatron_jacket.jpeg" alt="Metatron">
+                            </div>
+                            <div>
+                                <h2>GENRE - TRANCE CORE - <br>
+                                    TITLE - METATRON - <br>
+                                    Date - 2015/9/22
+                                </h2>
+                            </div>
+
+                        </div>
+                        <h3>
+                            BGA by GLUON。BOFU2015参加作品。とても音ゲーらしい曲になったと思います。<br>
+                            自分でも何か音が微妙だなと思ってます。
                         </h3>
+                        
                     </section>
-                    <section class="section" id="TrancerDolls">
-                        <h1>- Cristierra - SHIKI's Trance best Album</h1>
-                        <img src="images/trancerdolls_jacket.png" alt="TrancerDolls">
+
+                    <!--Qliphoth-->
+                    <section class="section" id="Qliphoth">
+                        <h1>Qliphoth</h1>
                         
-                        <h3>2021春M3新譜『Girl's Heart Sensation』発売します。試聴等↑ジャケットクリックからどうぞ。
-                            全曲アップテンポのガールズポップONLYアルバムです。全国メロンブックス・BOOTHにて販売中。
-                            出来れば下記CDと一緒にメロンブックスさんで買ってくださいお願いします
+                        <div class="container">
+                            <div>
+                                <img src="images/qliphoth_jacket.jpeg" alt="Qliphoth">
+                            </div>
+                            <div>
+                                <h2>GENRE - Progressive Drum'n bass - <br>
+                                    TITLE - qliphoth - <br>
+                                    Date - 2011/9/25
+                                </h2>
+                            </div>
+
+                        </div>
+                        <h3>
+                            BGA by Rev。BOF2011参加作品。<br>
+                            いつものメロディック路線とはやや趣を変えた怪しい感じのジャズドラムンベース。<br>
+                            シンセ的な音色を使っていないシックな構成の曲ですが、 <br>
+                            地味にならないように各楽器を展開させてみました。
                         </h3>
+                        
                     </section>
-                    <section class="section" id="EndlessDreamer">
-                        <h1>- Cristierra - SHIKI's Trance best Album</h1>
-                        <img src="images/endlessdreamer_jacket.jpg" alt="EndlessDreamer">
+
+                    <!--Babylon-->
+                    <section class="section" id="Babylon">
+                        <h1>Babylon</h1>
                         
-                        <h3>2021春M3新譜『Girl's Heart Sensation』発売します。試聴等↑ジャケットクリックからどうぞ。
-                            全曲アップテンポのガールズポップONLYアルバムです。全国メロンブックス・BOOTHにて販売中。
-                            出来れば下記CDと一緒にメロンブックスさんで買ってくださいお願いします
+                        <div class="container">
+                            <div>
+                                <img src="images/babylon_jacket.jpeg" alt="Babylon">
+                            </div>
+                            <div>
+                                <h2>GENRE - HARD RENAISSANCE - <br>
+                                    TITLE - BABYLON - <br>
+                                    Date - 2009/9/27
+                                </h2>
+                            </div>
+
+                        </div>
+                        <h3>
+                            BGA by TOHRU MiTSUHASHi。BOF2009参加作品。 <br>
+                            「スペードのK」をモチーフに、高速BPMにハードな リズムとシンセ階段、 <br>
+                            メロディアスな乱打ピアノのボス曲的存在。譜面は高難易度になってます。
                         </h3>
+                        
                     </section>
-                    <section class="section" id="Cristears">
-                        <h1>- Cristierra - SHIKI's Trance best Album</h1>
-                        <img src="images/cristears_jacket.jpg" alt="Cristears">
+
+                    <!--Lapis-->
+                    <section class="section" id="Lapis">
+                        <h1>Lapis</h1>
                         
-                        <h3>2021春M3新譜『Girl's Heart Sensation』発売します。試聴等↑ジャケットクリックからどうぞ。
-                            全曲アップテンポのガールズポップONLYアルバムです。全国メロンブックス・BOOTHにて販売中。
-                            出来れば下記CDと一緒にメロンブックスさんで買ってくださいお願いします
+                        <div class="container">
+                            <div>
+                                <img src="images/lapis_jacket.jpeg" alt="Lapis">
+                            </div>
+                            <div>
+                                <h2>GENRE - TRANCE - <br>
+                                    TITLE - Lapis - <br>
+                                    Date - 2008/9/22
+                                </h2>
+                            </div>
+
+                        </div>
+                        <h3>
+                            BGA by KANON。BOF2008参加作品１つめ。<br>
+                            不規則なシンセリードにピアノ・ストリングスで展開していくメロディックトランス。<br>
+                            メロディー・展開共にBMSとしては良い形にまとまったかなと思います。
                         </h3>
+                        
                     </section>
                 </div>
-                
-                
-                
+                            
             </section>
         </div>
 
