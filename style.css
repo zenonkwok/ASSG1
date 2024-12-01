@@ -48,15 +48,13 @@ header {
 /* Navigation bar */
 .nav ul{
     background-color: #222222;
-    list-style-type: none;
-    text-align: center;
     padding: 10px;
     margin: 0px;
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 99%;
-    z-index: 1000;
+    z-index: 100
 }
 
 /* Navigation bar links */
@@ -126,7 +124,7 @@ hr {
 .mainwork .thumbnails ul{
     list-style: none;
     display: flex;
-    width: 100%;
+    width: 80%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -138,7 +136,7 @@ hr {
     max-height: 300px;
     max-width: 300px;
     flex-grow: 1;
-    flex-basis: 15%;
+    flex-basis: 0;
     margin: 5px;
     display: flex;
     flex-direction: column;
@@ -199,10 +197,11 @@ hr {
 .mainwork .Links ul{
     list-style: none;
     display: flex;
-    width: 100%;
+    width: 80%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    justify-self: center;
     gap: 60px;
 }
 
